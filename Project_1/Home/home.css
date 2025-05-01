@@ -23,3 +23,6 @@ nav{
     border-radius: 10px;
     cursor: pointer;
 }
+.login-button:hover{
+    background-color: pink;
+}
