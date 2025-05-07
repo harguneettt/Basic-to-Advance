@@ -23,7 +23,7 @@ function showData(productData){
         image.className="product-image"
         image.src = item.image;
         const price = document.createElement("h4")
-        price.innerText = `Rs ${item.price}`;
+        price.innerText = `$ ${item.price}`;
         const name = document.createElement("h2");
         name.innerText = item.title
         const category = document.createElement("p");
